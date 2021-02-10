@@ -8,11 +8,9 @@ function RTV = myfunc(x)
 
 
 
-
-% Baslangıc Noktasini Main.m 'de [-2 2] yapın. 
 %RTV = 100*(x(2)-x(1).^2).^2 + (1-x(1)).^2           ;
 
-% Baslangıc Noktasini Main.m 'de [1 2] yapın.
+% Starting Point: [1,2] --> modifiable
 RTV = x(1).^2+0.5*x(2).^2+3                         ; % Quadratic
 
 end
